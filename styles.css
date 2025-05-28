@@ -98,6 +98,7 @@ body {
     text-align: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.6;
 }
 
 .logo-text {
@@ -190,3 +191,28 @@ input:invalid {
     border: 1.5px red solid;
 }
 
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button, .footer-text {
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    border-radius: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+footer span {
+    color: #596D48;
+    font-weight: bold;
+}

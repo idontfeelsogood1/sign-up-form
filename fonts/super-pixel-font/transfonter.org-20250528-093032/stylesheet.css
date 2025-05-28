@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Super Pixel';
+    src: url('SuperPixel.woff2') format('woff2'),
+        url('SuperPixel.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

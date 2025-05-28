@@ -1,11 +1,12 @@
 @font-face {
-    font-family: 'Super Pixel';
-    src: url('SuperPixel.woff2') format('woff2'),
-        url('SuperPixel.woff') format('woff');
-    font-weight: normal;
+    font-family: 'Norse';
+    src: url('fonts/transfonter.org-20250528-103659/Norse-Bold.woff2') format('woff2'),
+        url('fonts/transfonter.org-20250528-103659/Norse-Bold.woff') format('woff');
+    font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
+
 
 /* 1. Use a more-intuitive box-sizing model */
 *, *::before, *::after {
@@ -31,9 +32,6 @@ body {
   -webkit-font-smoothing: antialiased;
   width: 100vw;
   height: 100vh;
-
-  /* To be removed */
-  border: 5px solid red;
 }
 
 /* 6. Improve media defaults */
@@ -69,3 +67,48 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* Design */
+
+body {
+    display: flex;
+}
+
+.left-box {
+    flex: 1;
+    position: relative;
+    background: url(templates/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: 100% 100%;
+}   
+
+.right-box {
+    flex: 2.3;
+}
+
+.logo-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10em;
+    height: 7em;
+    background: rgb(0, 0, 0, 0.4)
+}
+
+.img-author {
+    position: absolute;
+    width: 100%;
+    bottom: 5px;
+    text-align: center;
+    color: white;
+}
+
+.logo-text {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'Norse';
+    font-size: 2.5em;
+}
+
+.logo-image {
+    padding: 13px;
+}
